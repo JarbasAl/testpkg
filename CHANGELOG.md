@@ -1,12 +1,12 @@
 # Changelog
 
-## [2.1.0a1](https://github.com/JarbasAl/testpkg/tree/2.1.0a1) (2024-09-09)
+## [2.2.0a1](https://github.com/JarbasAl/testpkg/tree/2.2.0a1) (2024-09-09)
 
-[Full Changelog](https://github.com/JarbasAl/testpkg/compare/2.0.0...2.1.0a1)
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/2.1.0...2.2.0a1)
 
 **Merged pull requests:**
 
-- feat:auto\_rebase [\#13](https://github.com/JarbasAl/testpkg/pull/13) ([JarbasAl](https://github.com/JarbasAl))
+- feat:auto\_rebase [\#15](https://github.com/JarbasAl/testpkg/pull/15) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
