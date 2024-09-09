@@ -15,19 +15,18 @@ jobs:
       publish_release: true
       publish_pypi: false
       changelog_max_issues: 100
-      rebase_dev: true
 
-  reset_dev:
+  sync_dev:
     needs: publish_stable
     if: success()  # Ensure this job only runs if the previous job succeeds
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master branch
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v2
         with:
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
           ref: master
-
-      - name: Push changes
+      - name: Push master -> dev
         uses: ad-m/github-push-action@master
         with:
-          force_with_lease: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: dev
