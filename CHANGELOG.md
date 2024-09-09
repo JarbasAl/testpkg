@@ -1,12 +1,12 @@
 # Changelog
 
-## [3.0.0a1](https://github.com/JarbasAl/testpkg/tree/3.0.0a1) (2024-09-09)
+## [3.0.1a1](https://github.com/JarbasAl/testpkg/tree/3.0.1a1) (2024-09-09)
 
-[Full Changelog](https://github.com/JarbasAl/testpkg/compare/2.2.0...3.0.0a1)
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/3.0.0...3.0.1a1)
 
-**Breaking changes:**
+**Merged pull requests:**
 
-- feat!:awesomeness [\#17](https://github.com/JarbasAl/testpkg/pull/17) ([JarbasAl](https://github.com/JarbasAl))
+- fix:simplify [\#19](https://github.com/JarbasAl/testpkg/pull/19) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
