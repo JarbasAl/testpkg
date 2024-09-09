@@ -1,5 +1,25 @@
 # Changelog
 
+## [2.0.0a1](https://github.com/JarbasAl/testpkg/tree/2.0.0a1) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.1.1a1...2.0.0a1)
+
+**Breaking changes:**
+
+- fix!:proposal [\#11](https://github.com/JarbasAl/testpkg/pull/11) ([JarbasAl](https://github.com/JarbasAl))
+
+## [1.1.1a1](https://github.com/JarbasAl/testpkg/tree/1.1.1a1) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.2.1a1...1.1.1a1)
+
+## [1.2.1a1](https://github.com/JarbasAl/testpkg/tree/1.2.1a1) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.2.0a1...1.2.1a1)
+
+## [1.2.0a1](https://github.com/JarbasAl/testpkg/tree/1.2.0a1) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.1.0a1...1.2.0a1)
+
 ## [1.1.0a1](https://github.com/JarbasAl/testpkg/tree/1.1.0a1) (2024-09-09)
 
 [Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.0.0a1...1.1.0a1)
