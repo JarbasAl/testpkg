@@ -8,6 +8,7 @@ jobs:
   publish_alpha:
     uses: TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master
     with:
+      branch: 'dev'
       version_file: 'version.py'
       setup_py: 'setup.py'
       update_changelog: true
