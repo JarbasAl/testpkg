@@ -7,7 +7,7 @@ jobs:
   propose_release:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout dev branch
         uses: actions/checkout@v3
         with:
           ref: dev
@@ -33,5 +33,5 @@ jobs:
         with:
           title: "Release ${{ env.VERSION }}"
           body: "Human review requested!"
-          base: master
+          base: dev
           branch: release-${{ env.VERSION }}
