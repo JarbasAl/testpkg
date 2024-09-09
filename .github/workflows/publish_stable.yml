@@ -17,7 +17,7 @@ jobs:
       changelog_max_issues: 100
       rebase_dev: true
 
-  rebase_dev:
+  reset_dev:
     needs: publish_stable
     if: success()  # Ensure this job only runs if the previous job succeeds
     runs-on: ubuntu-latest
@@ -26,11 +26,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: master
-          fetch-depth: 0  # Fetch full history for rebase
 
-      - name: Sync dev with master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git fetch origin dev
-          git push origin dev --force
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          force_with_lease: true
