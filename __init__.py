@@ -1,3 +1,3 @@
 
 class AThing:
-    pass
+    """a bug disguised as a feature"""
