@@ -27,4 +27,4 @@ jobs:
           title: "Release ${{ env.VERSION }}"
           body: "Human review requested!"
           base: master
-          head: dev
+          branch: dev
