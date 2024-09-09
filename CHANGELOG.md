@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.1.0](https://github.com/JarbasAl/testpkg/tree/1.1.0) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/2.2.0a1...1.1.0)
+
 ## [2.2.0a1](https://github.com/JarbasAl/testpkg/tree/2.2.0a1) (2024-09-09)
 
 [Full Changelog](https://github.com/JarbasAl/testpkg/compare/2.1.0...2.2.0a1)
