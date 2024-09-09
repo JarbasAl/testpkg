@@ -9,6 +9,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          ref: dev
 
       - name: Setup Python
         uses: actions/setup-python@v2
@@ -21,10 +23,15 @@ jobs:
           VERSION=$(python setup.py --version)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
+      - name: Create a new branch for the PR
+        run: |
+          git checkout -b release-${{ env.VERSION }}
+          git push origin release-${{ env.VERSION }}
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
         with:
           title: "Release ${{ env.VERSION }}"
           body: "Human review requested!"
           base: master
-          branch: dev
+          branch: release-${{ env.VERSION }}
