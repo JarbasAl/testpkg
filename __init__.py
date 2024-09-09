@@ -1,5 +1,5 @@
 
 class AThing:
-    """a bug disguised as a feature"""
+    pass
 
-# a github diff
+a = 1
