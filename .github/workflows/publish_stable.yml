@@ -12,7 +12,7 @@ jobs:
       version_file: 'version.py'
       setup_py: 'setup.py'
       publish_release: true
-      publish_pypi: false
+      publish_pypi: true
 
   sync_dev:
     needs: publish_stable
