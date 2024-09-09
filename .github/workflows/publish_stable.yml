@@ -1,0 +1,18 @@
+name: Stable Release
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+jobs:
+  publish_stable:
+    uses: TigreGotico/gh-automations/.github/workflows/publish-stable.yml@master
+    with:
+      branch: 'master'
+      version_file: 'version.py'
+      setup_py: 'setup.py'
+      update_changelog: true
+      publish_release: true
+      publish_pypi: false
+      changelog_max_issues: 100
+      rebase_dev: true
