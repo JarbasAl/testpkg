@@ -23,15 +23,25 @@ jobs:
           VERSION=$(python setup.py --version)
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Create a new branch for the PR
+      - name: Create and push new branch
         run: |
           git checkout -b release-${{ env.VERSION }}
           git push origin release-${{ env.VERSION }}
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v3
-        with:
-          title: "Release ${{ env.VERSION }}"
-          body: "Human review requested!"
-          base: dev
-          branch: release-${{ env.VERSION }}
+      - name: Open Pull Request from dev to master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Variables
+          BRANCH_NAME="release-${{ env.VERSION }}"
+          BASE_BRANCH="master"
+          HEAD_BRANCH="release-${{ env.VERSION }}"
+          PR_TITLE="Release ${{ env.VERSION }}"
+          PR_BODY="Human review requested!"
+
+          # Create a PR using GitHub API
+          curl -X POST \
+            -H "Accept: application/vnd.github+json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            -d "{\"title\":\"$PR_TITLE\",\"body\":\"$PR_BODY\",\"head\":\"$HEAD_BRANCH\",\"base\":\"$BASE_BRANCH\"}" \
+            https://api.github.com/repos/${{ github.repository }}/pulls
