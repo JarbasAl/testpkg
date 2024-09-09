@@ -1,3 +1,3 @@
 
 class AThing:
-    """MAJOR RELEASE"""
+    """..."""
