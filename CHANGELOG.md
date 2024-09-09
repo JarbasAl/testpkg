@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0a1](https://github.com/JarbasAl/testpkg/tree/1.2.0a1) (2024-09-09)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.1.0a1...1.2.0a1)
+
+**Merged pull requests:**
+
+- feat:propose stable workflow [\#8](https://github.com/JarbasAl/testpkg/pull/8) ([JarbasAl](https://github.com/JarbasAl))
+
 ## [1.1.0a1](https://github.com/JarbasAl/testpkg/tree/1.1.0a1) (2024-09-09)
 
 [Full Changelog](https://github.com/JarbasAl/testpkg/compare/1.0.0a1...1.1.0a1)
