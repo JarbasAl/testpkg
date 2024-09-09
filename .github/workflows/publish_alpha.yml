@@ -6,7 +6,7 @@ on:
 
 jobs:
   publish_alpha:
-    uses: TigreGotico/gh-automations/workflows/publish-alpha.yml@master
+    uses: TigreGotico/gh-automations/.github/workflows/publish-alpha.yml@master
     with:
       version_file: 'version.py'
       setup_py: 'setup.py'
