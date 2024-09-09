@@ -1,12 +1,12 @@
 # Changelog
 
-## [4.0.0a1](https://github.com/JarbasAl/testpkg/tree/4.0.0a1) (2024-09-09)
+## [4.0.1a1](https://github.com/JarbasAl/testpkg/tree/4.0.1a1) (2024-09-09)
 
-[Full Changelog](https://github.com/JarbasAl/testpkg/compare/3.0.1...4.0.0a1)
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/4.0.0...4.0.1a1)
 
-**Breaking changes:**
+**Merged pull requests:**
 
-- fix!:bugs [\#21](https://github.com/JarbasAl/testpkg/pull/21) ([JarbasAl](https://github.com/JarbasAl))
+- fix:bugs [\#23](https://github.com/JarbasAl/testpkg/pull/23) ([JarbasAl](https://github.com/JarbasAl))
 
 
 
