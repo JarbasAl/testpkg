@@ -15,7 +15,6 @@ jobs:
       setup_py: 'setup.py'
       update_changelog: true
       publish_prerelease: true
-      publish_pypi: true
       changelog_max_issues: 100
 
   propose_release:
