@@ -1,5 +1,17 @@
 # Changelog
 
+## [5.0.0a1](https://github.com/JarbasAl/testpkg/tree/5.0.0a1) (2024-09-10)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/4.1.0a2...5.0.0a1)
+
+**Breaking changes:**
+
+- fix!:autos [\#27](https://github.com/JarbasAl/testpkg/pull/27) ([JarbasAl](https://github.com/JarbasAl))
+
+## [4.1.0a2](https://github.com/JarbasAl/testpkg/tree/4.1.0a2) (2024-09-10)
+
+[Full Changelog](https://github.com/JarbasAl/testpkg/compare/4.1.0a1...4.1.0a2)
+
 ## [4.1.0a1](https://github.com/JarbasAl/testpkg/tree/4.1.0a1) (2024-09-09)
 
 [Full Changelog](https://github.com/JarbasAl/testpkg/compare/4.0.1...4.1.0a1)
